@@ -38,7 +38,7 @@ public class Movement : MonoBehaviour
     private void OnCollisionExit(Collision collision)
     {
         onGround = false;
-        Debug.Log("boob");
+        Debug.Log("bob");
         
         if (collision.gameObject.CompareTag("End"))
         {
